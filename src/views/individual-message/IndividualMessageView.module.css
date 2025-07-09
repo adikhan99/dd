@@ -1,0 +1,38 @@
+.studentSelector {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-top: 25px;
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  @media (max-width: 1600px) {
+    .studentSelector {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+  
+  @media (max-width: 1366px) {
+    .studentSelector {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .studentSelector {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .studentSelector {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .studentSelector {
+      grid-template-columns: 1fr;
+    }
+  }
+  

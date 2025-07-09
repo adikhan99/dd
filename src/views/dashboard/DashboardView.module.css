@@ -1,0 +1,63 @@
+.tileCard {
+  transition: all 0.3s ease;
+  height: 100%;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tileCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.primaryTile {
+  border-top: 4px solid #236734;
+}
+
+.secondaryTile {
+  border-top: 4px solid #02253f;
+}
+
+.dashboardContainer {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .dashboardContainer {
+    padding: 15px;
+  }
+}
+
+.infoSection {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userGuidesSection {
+  margin-top: 30px;
+}
+
+.userGuideLink{
+  color: #236734;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.userGuideLink:hover{
+  color: #02253f;
+}
+
+.tileTitle {
+  color: #02253f;
+  font-weight: 600 !important;
+}
+
+.tileDescription {
+  color: #5f6c7b;
+}

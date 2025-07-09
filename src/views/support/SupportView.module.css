@@ -1,0 +1,15 @@
+.supportList {
+    list-style-type: disc !important;
+    padding-left: 20px !important;
+  }
+   
+  .supportListItem {
+    display: list-item !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+   
+  .cardGrid {
+    margin-bottom: 32px !important;
+  }
+   
